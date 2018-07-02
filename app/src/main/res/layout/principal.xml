@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="horizontal"
+    tools:context="com.example.moreminx.proyectobote.MainActivity">
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <Button
+            android:id="@+id/botonPonen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/botonredondo"
+            android:onClick="Ponen"
+            android:paddingBottom="75dp"
+            android:paddingTop="75dp"
+            android:text="PONEN"
+            android:textColor="@color/letras"
+            android:textSize="10dp" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/botonBeben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/botonredondo"
+            android:onClick="Beben"
+            android:paddingBottom="75dp"
+            android:paddingTop="75dp"
+            android:text="BEBEN"
+            android:textColor="@color/letras"
+            android:textSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

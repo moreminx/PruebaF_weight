@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bote</string>
+    <string name="VINO">Vino</string>
+    <string name="CAFE">Cafe</string>
+    <string name="BRANDY">Brandy</string>
+    <string name="CERVEZA">Cerveza</string>
+    <string name="COCACOLA">Cocacola</string>
+    <string name="INFUSION">Infusion</string>
+</resources>

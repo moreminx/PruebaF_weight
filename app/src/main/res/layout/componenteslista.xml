@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.moreminx.proyectobote.CheckedLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_filas">
+    
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:background="@drawable/selector_filas"
+            android:id="@+id/text_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:clickable="false"/>
+        <TextView
+            android:id="@+id/text_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6565565255"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/imagen_bebida"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingRight="12dp"
+        android:src="@drawable/cocacola"
+        android:clickable="false"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:id="@+id/text_dinero"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="15.10"
+        android:clickable="false"/>
+
+</com.example.moreminx.proyectobote.CheckedLinearLayout>

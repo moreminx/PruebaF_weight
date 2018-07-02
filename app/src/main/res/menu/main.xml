@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accion_ordenarPedir"
+        app:showAsAction="never"
+        android:title="Ordenar para Pedir"
+
+        />
+
+    <item
+        android:id="@+id/accion_ordenarSaldo"
+        app:showAsAction="never"
+        android:title="Ordenar por Saldo"
+
+        />
+    <item
+        android:id="@+id/accion_nuevaPersona"
+        app:showAsAction="never"
+        android:title="Nueva Persona"
+
+        />
+
+    <item
+        android:id="@+id/accion_modificarPrecioBebidas"
+        app:showAsAction="never"
+        android:title="Modificar precios bebidas"
+
+        />
+
+    <item
+        android:id="@+id/accion_establecerCuotas"
+        app:showAsAction="never"
+        android:title="Establecer cuotas"
+
+        />
+
+</menu>
